@@ -125,7 +125,7 @@ font-family: OpenSans;
     min-height: 250px;
     padding: 10px;
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 10px;
     float: left;
     background: transparent url(../img/home-concept-item.png) no-repeat 2px 2px;
 }

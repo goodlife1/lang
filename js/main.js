@@ -49,7 +49,7 @@ $(document).ready(function () {
 
         left = parseInt(circle.css('left').replace("px",""));
         left=left+5;
-        top = -10+Math.cos(left*0.01)*120;
+        top = 10+Math.sin(left*0.008)*120;
         circle.css({'left':left,'top':top});
     }
     var slide4 =$('#sl-3').offset().top;
@@ -61,7 +61,7 @@ $(document).ready(function () {
 
 
     let StartTime = setInterval(function () {
-        if (left >$('body').width()-550){
+        if (left >$('body').width()*0.8){
             clearInterval(StartTime);
             return;
         }
@@ -78,7 +78,7 @@ $(document).ready(function () {
 
         $('#plane').rotate({angle:t});
 
-    },50);
+    },200);
         }
     });
 
