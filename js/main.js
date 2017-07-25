@@ -7,7 +7,7 @@ $(document).ready(function () {
         free_width=0.70,
         a=true;
     if($(window).width()<=1440){
-        plane_spead=40;
+        plane_spead=200;
         free_width=0.8;
         console.log(free_width);
     }
