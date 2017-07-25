@@ -1,0 +1,22 @@
+$(document).ready(function () {
+    let circle = $("#plane"),
+        currentTime = Date.now(),
+        r=250,
+        left ="",
+        top="",
+        alpha= 2*3.14,
+        t=1;
+    function drawPosition(t) {
+
+        left = parseInt(circle.css('left').replace("px",""));
+        left=left+5;
+        top = 10+Math.sin(left*0.01)*105;
+        circle.css({'left':left,'top':top});
+    }
+    let StartTime = setInterval(function () {
+if (left >$('body').width()-250){
+    return 0;
+}
+        drawPosition(t=t+0.5);
+    },50);
+});

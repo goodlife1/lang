@@ -98,6 +98,9 @@ font-family: OpenSans;
 
 }
 .slide-3{
+    margin-top: 80px;
+}
+.slide-content{
     margin-top: 70px;
     min-height: 700px;
     background: transparent url(../img/line_slide3.png) no-repeat center 0;
@@ -122,13 +125,13 @@ font-family: OpenSans;
     min-height: 250px;
     padding: 10px;
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 40px;
     float: left;
     background: transparent url(../img/home-concept-item.png) no-repeat 2px 2px;
 }
 .slide-3 .big_item{
     padding: 10px;
-    margin: 50px;
+    margin: 10px;
     border-radius: 100%;
     border: 1px #666666 dashed;
     /*background: transparent url(../img/home-concept-item.png) no-repeat 100% 0;*/
