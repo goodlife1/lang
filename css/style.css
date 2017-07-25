@@ -108,11 +108,18 @@ font-family: OpenSans;
 .slide-3 .items{
     margin-top: 135px;
 }
+.item p{
+    font-family: Raleway;
+    font-size: 16px;
+    margin-top: 15px;
+}
 .slide-3 .items img{
     border-radius: 100%;
 
 }
 .slide-3 .item{
+    width: 180px;
+    min-height: 250px;
     padding: 10px;
     display: inline-block;
     margin-left: 50px;
