@@ -102,7 +102,7 @@ font-family: OpenSans;
 }
 .slide-content{
     margin-top: 70px;
-    min-height: 700px;
+    min-height: 500px;
     background: transparent url(../img/line_slide3.png) no-repeat center 0;
     background-size: contain;
     width: 100%;
