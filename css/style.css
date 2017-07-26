@@ -145,3 +145,11 @@ font-family: OpenSans;
 
     }
 }
+.slide-4{
+   min-height: 150px;margin-top: 150px;
+    background-image: url(../img/count.jpg); color: black;
+}
+ .count .item{
+display: block;
+     background-color: white;
+ }

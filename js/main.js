@@ -43,13 +43,13 @@ $('#slide').cycle('fade'); //big item
 
 
 var iconsetTop =$('#sl-bl-1').offset().top;
+    $(window).on('scroll', function () {
+        if ($(window).scrollTop() >= iconsetTop + 150) {
 
-$(window).on('scroll', function() {
-    if ($(window).scrollTop() >= iconsetTop+130) {
-        $('#sl-bl-1').slideDown(2000);
-    } else {
-    }
-});
+            $('#sl-bl-1').slideDown(2000);
+        } else {
+        }
+    });
 var slide3 =$('#sl-3').offset().top;
 var slide3_active=false;
 
